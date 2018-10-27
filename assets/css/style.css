@@ -1,0 +1,44 @@
+body {
+   width: 960px;
+   height: 1000;
+}
+
+.nameBox {
+    background-color: #c67229;
+    height: 75px;
+    width: 180px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+
+}
+
+#topBox {
+    margin: 20px auto auto 20px;
+    margin-left: 20px;
+}
+#instructionBox {
+    margin: 20px auto auto 20px;
+    width: 280px;
+    height: 300px;
+    background-color: #f9e4cd;
+}
+#parentRanWinLossBox {
+    margin: 20px auto auto 20px;
+    Width: 160px;
+     height: 100px;
+    background: blue ;
+
+}
+.randomNumberBox {
+    float: left;
+    width:100px;
+    height: 100px;
+    background:green;
+}
+.winLosebox {
+    width: 60px;
+    height: 100px;
+}
