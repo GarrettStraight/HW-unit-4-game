@@ -82,12 +82,12 @@ $(document).ready(function () {
         if (playerScore == randomnum) {
             endOfGame = true;
             wins++;
-            $('#announce').text("You Win!!");
+            $('#status').text("You Win!!");
         } else if (playerScore > randomnum) {
             Playerloses = true;
             endOfGame = true;
             losses++;
-            $('#announce').text("You Lose!");
+            $('#status').text("You Lose!");
         };
 
         if (endOfGame) {

@@ -4,52 +4,65 @@
 
 <head>
 	<title>Crystals Collector</title>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Helvetica" rel="stylesheet">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
-<body>
+<body background="assets/images/background.png">
 	<h1>Crystal Collector</h1>
-		<p>
-		You will be given a random number at the start of the game.
-		<br>
-		There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
-		<br>
-		You win the game by matching your total score to the random number. 
-		<br>
-		You lose the game if your total score goes higher than the random number.
-		<br>
-		The value of each crystal is hidden from you until you click on it.
-		<br>
-		Each time the game starts, the value of each crystal will change and the random number will change.
-		</p>
-		
 	
-
-</div>
-	<div id="random">Random Number:</div>
-	<div id="randnum"></div>
-<div>
-	<div id="wins"></div>
-	<div id="losses"></div>
-</div>
-
-<div id="announce"></div>
-
-<div class="crystals">
-	<div id="red"></div>
-	<div id="blue"></div>
-	<div id="yellow"></div>
-	<div id="green"></div>
-</div>
-<div id="yourScore">Your Score:</div>
-<div id="playerScore"></div>
+	<div class="container">
+		<article>
+			* You will be given a random number at the start of the game.
+			<br>
+			* There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+			  score.
+			<br>
+			* You win the game by matching your total score to the random number.
+			<br>
+			* You lose the game if your total score goes higher than the random number.
+			<br>
+			* The value of each crystal is hidden from you until you click on it.
+			<br>
+			* Each time the game starts, the value of each crystal will change and the random number will change.
+		</article>
+	</div>
 
 
+	</div>
+	<div id="container2">
+		<h2 id="random">Random Number:</h2>
+		<h2 id="randnum"></h2>
+		<div>
+			<h4 id="wins"></h4>
+			<h4 id="losses"></h4>
+		</div>
+
+
+		<h3 id="yourScore">Your Score:</h3>
+		<div id="playerScore"></div>
+		<h3 id="announce"></h3>
+		<div class="crystals">
+			<div id="red"></div>
+			<div id="yellow"></div>
+			<div id="blue"></div>
+			<div id="green"></div>
+
+		</div>
+	</div>
+
+	<div>Copyright &copy Garrett Straight</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
+
 </html>

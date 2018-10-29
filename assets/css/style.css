@@ -1,14 +1,47 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Helvetica', cursive;
-    color: red;
-}
-
 body {
-    font-size: 14px;
-    background-image: url("assets/images/background-image");
-}
+    text:orange;
+    font-size: 18px;
+    font-family:'Helvetica';
+    text-align:left;
+    float: left;
 
-p {
-    color: orange;
-}
+  }
+  
+
+  /* general */
+
+  .container {
+    text-align:left;
+    text: white;
+    padding:5px;
+    background-color:rgb(122, 122, 148);
+	  width: 100%;
+	  margin: auto;
+  }
+  #container2 {
+    float:left;
+    text-align:left;
+    text: white;
+    padding:5px;
+    background-color:rgb(154, 154, 204);
+	  width: 50%;
+	  margin: auto;
+  }
+  
+
+  
+  /* main */
+  
+
+  
+	
+	@media (min-width: 768px) {
+		.container { max-width: 650px; }
+	}
+	
+	@media (min-width: 992px) {
+		.container { max-width: 750px; }
+    }
+    #red,#blue,#yellow,#green {
+        float: left;
+    }
