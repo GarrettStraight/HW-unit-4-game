@@ -1,31 +1,30 @@
 body {
-    text:orange;
-    font-size: 18px;
+    font-size: 16px;
     font-family:'Helvetica';
     text-align:left;
     float: left;
 
   }
-  
 
   /* general */
 
   .container {
+    float:left;
     text-align:left;
-    text: white;
+    line-height:22px;
     padding:5px;
-    background-color:rgb(122, 122, 148);
+    background-color:rgba(241, 147, 205, 0.924);
 	  width: 100%;
-	  margin: auto;
+	  margin: 0;
   }
   #container2 {
     float:left;
+    line-height:10px;
     text-align:left;
-    text: white;
-    padding:5px;
     background-color:rgb(154, 154, 204);
-	  width: 50%;
-	  margin: auto;
+    width:30%;
+    height:auto;    
+	  margin: 0;
   }
   
 
